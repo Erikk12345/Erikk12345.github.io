@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Page</title>
+</head>
+
+<body>
+<h1>Form</h1>
+<form action="path/to/confirmation.html">
+	<div>
+    	<label for="first-name">First Name</label>
+        <input type="text" name="user_firstname" id="first-name" value="" />
+    </div>
+    <br />
+    <div>
+    	<label for="last-name">Last Name</label>
+        <input type="text" name="user_lastname" id="last-name" value="" />
+    </div>
+    <br />
+    <div>
+    	<label for="email">Email Address</label>
+    	<input type="text" name="user_email" id="email" value="" />
+    </div>
+    
+    <fieldset>
+    	<legend>Gender</legend>
+        <label>
+        	<input type="radio" name="user_gender" id="gender-male" value="male" />
+            Male
+        </label>
+        <label>
+        	<input type="radio" name="user_gender" id="gender-male" value="female" />
+            Female
+        </label>
+     </fieldset>
+     <fieldset>
+     	<legend>Hobbies</legend>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="working" />
+            Working
+        </label>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="shopping" />
+            Shopping
+        </label>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="learning" />
+            Learning
+        </label>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="eating" />
+            Eating
+        </label>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="vacation" />
+            Vacation
+        </label>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="reading" />
+            Reading
+        </label>
+        <label>
+        	<input type="checkbox" name="use_hobby" value="cooking" />
+            Cooking
+        </label>
+     </fieldset>
+     <form>
+     <p>What do you think of raw salmon fish</p>
+     	<textarea name="comments" cols="30" rows="5">Enter your comments..</textarea>
+     </form>
+     <form>
+     	<p>Upload a pic of your favorite place to camp:</p>
+     		<input type="file" name="user-song" /><br />
+     		<input type="submit" value="Upload" />
+     </form><br />
+     <hr/>
+     <button type="submit">Save Answers</button>
+     <button type="reset">Reset</button>
+     </form>
+</html>
