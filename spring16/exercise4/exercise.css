@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-color: #ECD08A;
+	font-family: helvetica, times, serif;
+	color:#433A3A 
+}
+strong {
+	color: #2784D1; 
+}
+p {
+	font-family: helvetica, times, serif;
+	font-size: 100%
+}
+h1 {
+	font-family: helvetica, times;
+	font-weight: 200px;
+	color: #2784D1; 
+}
+h2, h3 {
+	font-family: times, helvetica;
+	color: #06425C; 
+}
+a { 
+	color: #1B1FED; 
+}
+a:hover {
+	color:#D7161A 
+}
+li {
+	padding: .25em; 
+	list-style-position: outside; 
+}
+li+li {
+	list-style-type: square;
+	border-top: 0.10em solid #6593E9 
+}
+li > ul {
+    background: rgba(5,4,2,.4);
+    margin: 0.20em; 
+}
+.page-title {
+    color: #C25B56;
+    text-transform: uppercase;
+    font-size: 1.5em; 
+}
+.roasted {
+	background-color: #A2BBF2;
+	padding: 0.25em;
+	margin: 0.25em;
+	text-align: left;
+	font-family: times;
+	font-size: 18px; 
+}
+.bake {
+	background-color: #A2BBF2;
+	padding: 0.25em;
+	margin: 0.25em;
+	text-align: left;
+	font-family: times;
+	font-size: 18px; 
+}
+.type {
+	background-color: #A2BBF2;
+	margin: 0.25em;
+	text-align: left;
+	font-family: times;
+	font-size: 18px; 
+}
+table {
+	box-sizing: border-box;
+	background-color: #A2BBF2;
+	padding: em;
+	margin-left: 4.5em;
+	text-align: left;
+	font-family: times;
+	font-size: 18px;
+}
