@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: helvetica, Verdana, sans-serif;
+}
+html {
+	background-color: #ffffff;
+	font-family: helvetica, times, serif;
+	color:#433A3A 
+}
+body {
+	font-family: helvetica, verdana, sans-serif;
+	color: #665544;
+}
+p {
+	font-family: helvetica, times, serif;
+	font-size: 100%
+}
+h1 {
+	font-family: helvetica, times;
+	font-weight: 100px;
+	font-size: 20px;
+	color: #000000; 
+}
+h2 {
+	font-family: helvetica;
+	color: #000000;
+	font-size: 110%;
+}
+h3 {
+	font-family: helvetica;
+	color: #000000;
+	font-size: 180%;
+}
+a { 
+	color: #1B1FED; 
+}
+.container {
+	width: 990px;
+	margin: 0 auto;
+}
+.page-title {
+    color: #a22d2d;
+    text-transform: uppercase;
+    font-size: 1.5em; 
+}
+.type {
+	background-color: #A2BBF2;
+	margin: 0.25em;
+	text-align: left;
+	font-family: times;
+	font-size: 18px; 
+}
+p {
+	float: left;
+	margin: 0px;
+	padding: 10 0px;
+	font-size: 13px;
+	color: #000000;
+}
+div {
+	overflow: auto;
+	width: 100%;
+}
+.column1of2 {
+	float: left;
+	width: 370px;
+	margin: 0 115px 0px 5px;
+}
+.column2of2 {
+	float: left;
+	width: 500px;
+	margin-top: 0
+}
+.logo-bar {
+	background: #000;
+}
+
+#nav, #feature, #footer {
+	background-color: #ffffff;
+	box-sizing: border-box;
+	font-size: 90%;
+}
+.col1of3 {
+	width: 490px;
+	padding: 0 10px;
+	float: left;
+}
+.bgback {
+	background-color: #ffffff;
+}
+.spaceright {
+	padding: 1em;
+}
+.down-to-business-headline {
+	background: #f00;
+	padding: 15px;
+	text-size: 16px;
+	text-align: right;
+	margin: 0;
+}
+.car-front {
+	width: 498px;
+	height: 400px;
+}
+.black-red-background {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.image {
+	margin-left: 230px;
+	height: 70px;
+}
+.top-red-strip {
+	background: #f00;
+	padding: 20px;
+	width: 988px;
+}
+.logo-top {
+	height: 70px;
+	width: 80px;
+}
+.front-car-image {
+	height: 400px;
+	width: 498px;
+}
