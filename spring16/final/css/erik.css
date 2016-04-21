@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+	background-color: #EEE9CB;
+	font-family: helvetica, times, serif;
+	color:#433A3A 
+}
+a { 
+	color: #000000; 
+}
+a:hover {
+	color:#EEE9CB 
+}
+h5 {
+	color:#E83033;
+}
+li {
+	padding: .25em; 
+	list-style-position: outside; 
+}
+.container {
+	width: 990px;
+	margin: 0 auto;
+}
+body {
+	font-family: arial, verdana, sans-serif;
+	color: #000000;
+}
+
+#header {
+		background-color: #597337;
+}
+#nav {
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+.nav {
+	margin: 45px 0;
+}
+.nav a {
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.nav li {
+	display: inline;
+	padding-right: 2em;
+}
+* {
+	font-family: Arial, Verdana, sans-serif;
+}
+.footer {
+	padding: 1em;
+	background-color: #597337;
+}
+.bgback {
+	background-color: #DAAF7B;
+    border-top: 30px solid #421A09;
+}
+.spaceright {
+	padding: 1em;
+}
+.info {
+	text-align: left;
+	line-height: .1 em;
+}
+.store-hours {
+	float: left;
+}
+.legal-terms {
+	float: left;
+	padding-left: 5em;
+}
+.contact-us {
+	float: left;
+	padding-left: 5em;
+}
+.social-media {
+	float: right;
+	padding-left: 5em;
+}
+.copyright {
+	clear: both;
+	margin-top: 3em;
+}
+.nav {
+	float: right;
+}
+.column1 {
+	float: right;
+	margin-bottom: 2em;
+	width: 760px;
+}
+.los-angeles-picture {
+	loat:left;
+}
+.welcome-text {
+	float: right;
+	width: 423px;
+	font-size: 100%;
+	font-family: georgia, times serif;
+	margin: 20px 20px 10px 10px;
+	padding: 10px;
+}
+.column1of2 {
+	float: left;
+	width: 400px;
+	margin: 30px 30px;
+	background-color: #EEE9CB;
+}
+.column2of2 {
+	float: right;
+	width: 400px;
+	margin: 30px  20px;
+}
+.bgbottom {
+	background-color: #421A09;
+}
+.column3 {
+	float: left;
+	width: 435px;
+	margin: 30px 30px;
+	padding: 30px 30px;
+	background-color: #EEE9CB;
+}
+.column4 {
+	float: right;
+	width: 435px;
+	margin: 30px 30px;
+	padding: 30px 30px;
+	background-color: #EEE9CB;
+}
+.bgbottomgrey {
+	background-color: #DAAF7B
+}
+.column6 {
+	float: left;
+	width: 900px;
+	height: 350px;
+	margin: 30px 30px;
+	padding: 20px;
+	background-color: #EEE9CB;
+}
+.name-of-events {
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin-top: -60px;
+}
+.why-buy-organic-column {
+	float: right;
+	width: 435px;
+	height: 325px;
+	margin: 30px 30px;
+	padding: 30px 30px;
+	background-color: #EEE9CB;
+}
+.today-special {
+	float: left;
+	height: 392px;
+}
+.Request-a-quote {
+	text-align: left;
+	float: right;
+	width: 450px;
+	font-size: 100%;
+	font-family: georgia, times serif;
+	margin: 20px 20px 10px 10px;
+	padding: 5px;
+}
+.Request-a-quote label {
+	display: inline-block;
+	width: 150px;
+	padding: 5px;
+}
+.tea-green {
+	float: right;
+	width: 435px;
+	margin: 30px 30px;
+	padding: 30px 30px;
+	background-color: #EEE9CB;
+}
+.green-tea-text {
+	float: right;
+	width: 450px;
+	font-size: 100%;
+	font-family: georgia, times serif;
+	margin: 20px 20px 10px 10px;
+	padding: 10px;
+}
+.green-white-teas {
+	float: left;
+	width: 408px;
+	font-size: 100%;
+	font-family: georgia, times serif;
+	margin: 20px 70px 10px 62px;
+	padding: 10px;
+}
+.shopping-list {
+	float: left;
+	width: 780px;
+	margin: 40px 100px;
+	background-color: #EEE9CB;
+}
+.shopping-list img {
+	float: left;
+}
+.shopping-desc {
+	float: right;
+	width: 580px
+}
+.shopping-list p {
+	margin-bottom: 2em;
+}
+.job-details-text {
+	float: right;
+	width: 435px;
+	height: 390px;
+	margin: 30px 30px;
+	padding: 30px 30px;
+	background-color: #EEE9CB;
+}
+.location1 {
+	float: left;
+	width: 170px;
+	height: 435px;
+	margin: 100px 10px 20px 30px;
+	background-color: #EEE9CB;
+	text-align: center;
+}
+.location2 {
+	float: left;
+	width: 170px;
+	height: 435px;
+	margin: 100px 10px 20px 10px;
+	background-color: #EEE9CB;
+	text-align: center;
+}
+.location3 {
+	float: left;
+	width: 170px;
+	height: 435px;
+	margin: 100px 10px 20px 10px;
+	background-color: #EEE9CB;
+	text-align: center;
+}
+.location4 {
+	float: left;
+	width: 170px;
+	height: 435px;
+	margin: 100px 10px 20px 10px;
+	background-color: #EEE9CB;
+	text-align: center;
+}
+.location5 {
+	float: left;
+	width: 170px;
+	height: 435px;
+	margin: 100px 10px 20px 10px;
+	background-color: #EEE9CB;
+	text-align: center;
+}
+.location-text {
+	width: 120px;
+	margin-left: 25px;
+}
+.location-text p {
+	font-size: 13px;
+}
+.testemonial-pic {
+	float: left;
+	padding: 25px 30px;
+}
+.front-pic-margin {
+	margin: -16px 75px;
+}
+.welcome-weight-long {
+	width: 350px;
+}
+.textarea {
+	margin: 0 5px 5px 150px;
+}
+	
