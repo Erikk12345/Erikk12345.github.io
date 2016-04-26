@@ -15,6 +15,7 @@ a:hover {
 }
 h5 {
 	color:#E83033;
+	margin-bottom: 0px;
 }
 li {
 	padding: .25em; 
@@ -72,11 +73,11 @@ body {
 }
 .legal-terms {
 	float: left;
-	padding-left: 5em;
+	padding-left: 7em;
 }
 .contact-us {
 	float: left;
-	padding-left: 5em;
+	padding-left: 8em;
 }
 .social-media {
 	float: right;
@@ -122,6 +123,7 @@ body {
 .column3 {
 	float: left;
 	width: 435px;
+	height: 460px;
 	margin: 30px 30px;
 	padding: 30px 30px;
 	background-color: #EEE9CB;
@@ -129,6 +131,7 @@ body {
 .column4 {
 	float: right;
 	width: 435px;
+	height: 460px;
 	margin: 30px 30px;
 	padding: 30px 30px;
 	background-color: #EEE9CB;
@@ -153,7 +156,7 @@ body {
 .why-buy-organic-column {
 	float: right;
 	width: 435px;
-	height: 325px;
+	height: 460px;
 	margin: 30px 30px;
 	padding: 30px 30px;
 	background-color: #EEE9CB;
@@ -213,15 +216,18 @@ body {
 	width: 580px
 }
 .shopping-list p {
-	margin-bottom: 2em;
+	margin-bottom: 0em;
 }
 .job-details-text {
 	float: right;
 	width: 435px;
-	height: 390px;
+	height: 460px;
 	margin: 30px 30px;
 	padding: 30px 30px;
 	background-color: #EEE9CB;
+}
+.job-details-text h3 {
+	margin: -6px -6px;
 }
 .location1 {
 	float: left;
@@ -316,4 +322,65 @@ fieldset h2 {
 }
 .job-details-text h2 {
 	color:#E83033;
+}
+.add-to-cart-buttom {
+	margin: 0px 430px;
+	padding: 0px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E83033;
+}
+.submit-buttom-design {
+	font-size: 18px;
+	font-weight: bold;
+	color: #E83033;
+}
+.job-details-buttom {
+	margin: 40px -9px;
+	padding: 10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E83033;
+}
+.job-details-text h3 {
+	margin-left: 1px;
+	margin-bottom: -15px;
+}
+.job-details-text p {
+	margin-bottom: 25px;
+}
+.our-story-buttom {
+	margin: 40px -10px;
+	padding: 10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E83033;
+}
+.why-organic-buttom {
+	margin: 107px -10px;
+	padding: 10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E83033;
+}
+.name-of-events h3 {
+	margin-bottom: -15px;
+}
+.name-of-events p {
+	margin-bottom: 25px;
+}
+.column4 h3 {
+	margin-bottom: -15px;
+}
+.column4 p {
+	margin-bottom: 25px;
+}
+.column3 h3 {
+	margin-bottom: -15px;
+}
+.column3 p {
+	margin-bottom: 25px;
+}
+.strong-color strong {
+	color: #E83033;
 }
