@@ -110,6 +110,13 @@ body {
 	padding: 20px 20px;
 	background-color: #1A8BBC;
 }
+.column3 h1 {
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+.column3 h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
 .column4 {
 	float: left;
 	width: 270px;
@@ -117,6 +124,13 @@ body {
 	margin: 30px 20px;
 	padding: 20px 20px;
 	background-color: #1A8BBC;
+}
+.column4 h1 {
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+.column4 h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
 }
 .column5 {
 	float: left;
@@ -126,10 +140,17 @@ body {
 	padding: 20px 20px;
 	background-color: #1A8BBC;
 }
+.column5 h1 {
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+.column5 h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
 .image1 {
 	float: left;
 	width: 220px;
-	height: 435px;
+	height: 300px;
 	margin: 5px 10px 20px 30px;
 	background-color: #000000;
 	text-align: center;
@@ -137,7 +158,7 @@ body {
 .image2 {
 	float: left;
 	width: 220px;
-	height: 435px;
+	height: 300px;
 	margin: 5px 10px 20px 10px;
 	background-color: #000000;
 	text-align: center;
@@ -145,7 +166,7 @@ body {
 .image3 {
 	float: left;
 	width: 220px;
-	height: 435px;
+	height: 300px;
 	margin: 5px 10px 20px 10px;
 	background-color: #000000;
 	text-align: center;
@@ -153,7 +174,7 @@ body {
 .image4 {
 	float: left;
 	width: 220px;
-	height: 435px;
+	height: 300px;
 	margin: 5px 10px 20px 10px;
 	background-color: #000000;
 	text-align: center;
@@ -216,6 +237,10 @@ body {
 	margin-left: 215px;
 	width: 550px;
 }
+.cleafix2 h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #1A8BBC;
+}
 .p-blue-color {
 	color: #0A8ABE;
 }
@@ -241,10 +266,12 @@ body {
 	float: left;
 }
 .form-structure {
-    margin:10px auto;
+    margin: 30px auto;
+	margin-bottom: 70px;
     max-width: 600px;
     padding: 20px 12px 10px 20px;
-	color: #FFFFFF;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 .form-structure li {
     padding: 0;
@@ -298,4 +325,42 @@ select{
     padding: 7px;
     margin:0px;
     outline: none;  
+}
+.adobe-top-text {
+	padding-left: 75px;
+	margin-bottom: -100px;
+	font-size: 18px;
+	font-weight: 800;
+}
+.front-pic-margin {
+	position: relative;
+}
+.front-text-image {
+	position: absolute;
+	padding: 10px 10px 30px 10px;
+	background-image: url(../images/bg.jpg);
+	opacity: 0.8;
+	margin-top: -250px;
+	margin-left: 200px;
+	margin-right: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.front-text-image h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #1A8BBC;
+}
+.bgback2 {
+	background-color: #1A8BBC;
+	padding: 0.5px 0px;
+	margin-top: 70px;
+}
+.bgback2 h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #000000;
+}
+.pics-4 {
+	margin-top: -30px;
 }
