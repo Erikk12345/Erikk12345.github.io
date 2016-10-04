@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Banner Ad - Medium Rectangle (300x250)</title>
+        <meta name="ad.size" content="width=300,height=250">
+        <meta name="description" content="">
+
+        <style>
+            /*
+             * Banner container, do not change
+             */
+            #medium-rectangle {
+                background: #fff;
+                border: 1px solid #ccc;
+                display: block;
+                height: 250px;
+                margin: 50px auto;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 300px;
+				animation-name: sky;
+				animation-duration:17s;
+				animation-iteration-count: 1;
+            }
+			#city {
+				animation-name: city;
+				animation-duration: 4s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes city {
+				0% {
+					transform: translateY(200px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(200px);
+				}
+			}
+			#moon {
+				animation-name: moon;
+				animation-duration: 3s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes moon {
+				0% {
+					transform: translateY(-100px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(-150px);
+				}
+			}
+			#text1 {
+				animation-name: text1;
+				animation-duration: 4s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes text1 {
+				0% {
+					transform: translateX(-300px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(-300px);
+				}
+			}
+			#stars2 {
+				animation-name: stars2;
+				animation-duration: 4s;
+				animation-delay: 3s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes stars2 {
+				0% {
+					transform: translateX(-300px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(-800px);
+				}
+			}
+			#moon2 {
+				animation-name: moon2;
+				animation-duration: 4s;
+				animation-delay: 3s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes moon2 {
+				0% {
+					transform: translateX(700px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(700px);
+				}
+			}	
+			#text2 {
+				animation-name: text2;
+				animation-duration: 4s;
+				animation-delay: 3s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes text2 {
+				0% {
+					transform: translateY(400px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(400px);
+				}
+			}
+			#stars3 {
+				animation-name: stars3;
+				animation-duration: 4s;
+				animation-delay: 5s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes stars3 {
+				0% {
+					transform: translateY(-400px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(-400px);
+				}
+			}
+			#text3 {
+				animation-name: text3;
+				animation-duration: 4s;
+				animation-delay: 5s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes text3 {
+				0% {
+					transform: translateX(400px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(300px);
+				}
+			}
+			#stars4 {
+				animation-name: stars4;
+				animation-duration: 4s;
+				animation-delay: 7.5s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes stars4 {
+				0% {
+					transform: translate(-300px,-300px);
+				}
+				25% {
+					transform: translate(-50px, -50px);
+				}
+				50% {
+					transform: translate(0px);
+				}
+				100% {
+					transform: translate(-300px,-300px);
+				}
+			}
+			#cup4 {
+				animation-name: cup4;
+				animation-duration: 4s;
+				animation-delay: 7.5s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes cup4 {
+				0% {
+					transform: translateY(300px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(300px);
+				}
+			}
+			#stars5 {
+				animation-name: stars5;
+				animation-duration: 5s;
+				animation-delay: 9.7s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes stars5 {
+				0% {
+					transform: translateY(-300px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(50px);
+				}
+				100% {
+					transform: translateY(300px);
+				}
+			}
+			#cup5 {
+				animation-name: cup5;
+				animation-duration: 5s;
+				animation-delay: 9.7s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes cup5 {
+				0% {
+					transform: translateY(300px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(300px);
+				}
+			}
+			#starscup5 {
+				animation-name: starscup5;
+				animation-duration: 5s;
+				animation-delay: 9s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes starscup5 {
+				0% {
+					transform: translateY(-300px);
+				}
+				25% {
+					transform: translateY(-300px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(300px);
+				}
+			}
+			#fillcup5 {
+				animation-name: fillcup5;
+				animation-duration: 5s;
+				animation-delay: 9.7s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes fillcup5 {
+				0% {
+					transform: translateY(200px);
+				}
+				25% {
+					transform: translateY(100px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(300px);
+				}
+			}
+			#logo5 {
+				animation-name: logo5;
+				animation-duration: 5s;
+				animation-delay: 9.7s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes logo5 {
+				0% {
+					transform: translateY(300px);
+				}
+				25% {
+					transform: translateY(0px);
+				}
+				50% {
+					transform: translateY(0px);
+				}
+				100% {
+					transform: translateY(300px);
+				}
+			}
+			#card6 {
+				animation-name: card6;
+				animation-duration: 5s;
+				animation-delay: 12.5s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes card6 {
+					0% {
+					transform: translateX(300px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(300px);
+				}
+			}
+			#calltoaction6 {
+				animation-name: calltoaction6;
+				animation-duration: 5s;
+				animation-delay: 12.5s;
+				position: absolute;
+				animation-fill-mode: both;
+			}
+			@keyframes calltoaction6 {
+				0% {
+					transform: translateX(-300px);
+				}
+				25% {
+					transform: translateX(0px);
+				}
+				50% {
+					transform: translateX(0px);
+				}
+				100% {
+					transform: translateX(-300px);
+				}
+			}
+			@keyframes sky {
+				0% {
+					background: #1D648D;
+				}
+				25% {
+					background: #1D648D;
+				}
+				50% {
+					background: #155371;
+				}
+				75% {
+					background: #155371;
+				}
+				80% {
+					background: #C5A645;
+				}
+				100% {
+					background: #C5A645;
+				}
+			}
+			 
+			 
+        </style>
+    </head>
+    <body>
+        <a href="#" id="medium-rectangle">
+            <!--markup for banner goes below-->
+            <img src="../1/3.svg" id="city" alt="">
+            <img src="../1/Untitled-2.svg" id="moon" alt="">
+            <img src="../1/2.svg" id="text1" alt="">
+            <img src="../2/3.svg" id="stars2" alt="">
+            <img src="../2/1.svg" id="moon2" alt="">
+            <img src="../2/2.svg" id="text2" alt="">
+            <img src="../3/3.svg" id="stars3" alt="">
+            <img src="..//3/2.svg" id="text3" alt="">
+            <img src="../4/2.svg" id="stars4" alt="">
+            <img src="../4/1.svg" id="cup4" alt="">
+            <img src="../5/3.svg" id="stars5" alt="">
+            <img src="../5/1.svg" id="cup5" alt="">
+            <img src="../5/4.svg" id="starscup5" alt="">
+            <img src="../5/5.svg" id="fillcup5" alt="">
+            <img src="../5/2.svg" id="logo5" alt="">
+            <img src="../6/2.svg" id="card6" alt="">
+            <img src="../6/Untitled-3.svg" id="calltoaction6" alt="">
+            
+            
+            <div class="ball"></div>
+            <!--markup for banner goes above-->
+        </div>
+        </a>
+    </body>
+</html>
