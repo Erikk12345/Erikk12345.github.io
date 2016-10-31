@@ -948,16 +948,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+	background-color: #CEA44F;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#FFFFFF; 
+}
+a { 
+	color: #FFFFFF; 
+}
+.container {
+	width: 990px;
+	margin: 0 auto;
+}
+body {
+	font-family: arial, verdana, sans-serif;
+	color: #000000;
+}
 
-
-
-
-
-
-
-
-
-
+#header {
+		background-color: #1F658E;
+}
+.nav {
+	margin: 20px 0;
+}
+.gold-question {
+	float: right;
+	width: 423px;
+	font-size: 100%;
+	font-family: georgia, times serif;
+	margin: 20px 20px 10px 10px;
+	padding: 10px;
+}
+.gold-member-paragraph {
+	width: 350px;
+}
+h1 {
+	color: #D0B61F;
+}
+.gold-p {
+	color: #D0B61F;
+}
+.column1 {
+	float: left;
+	width: 320px;
+	height: 460px;
+	margin: 30px 30px 30px 30px;
+	padding: 30px 30px 30px 30px;
+}
+.column2 {
+	float: left;
+	width: 315px;
+	height: 460px;
+	margin: 30px 10px 30px 10px;
+	padding: 30px 10px 30px 10px;
+}
+.column3 {
+	float: left;
+	width: 100px;
+	height: 460px;
+	margin: 30px 10px 30px 10px;
+	padding: 30px 10px 30px 10px;
+}
 
 
 
