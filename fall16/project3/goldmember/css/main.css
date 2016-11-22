@@ -1007,13 +1007,6 @@ body {
 .gold-member-paragraph {
 	width: 350px;
 }
-<<<<<<< HEAD
-.column1 {
-	float: left;
-	width: 320px;
-	height: 460px;
-	padding: 30px 30px 30px 30px;
-=======
 .row3 {
 	padding: 30px 0;
 }
@@ -1022,26 +1015,17 @@ body {
 	width: 320px;
 	height: 400px;
 	padding: 30px 30px 30px 10px;
->>>>>>> origin/master
 }
 .column2 {
 	float: left;
 	width: 315px;
-<<<<<<< HEAD
-	height: 460px;
-=======
 	height: 400px;
->>>>>>> origin/master
 	padding: 30px 10px 30px 10px;
 }
 .column3 {
 	float: left;
 	width: 300px;
-<<<<<<< HEAD
-	height: 460px;
-=======
 	height: 400px;
->>>>>>> origin/master
 	padding: 30px 10px 30px 10px;
 }
 h3 {
