@@ -953,13 +953,7 @@ html {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color:#FFFFFF; 
 }
-a { 
-	color: #FFFFFF; 
-}
-.container {
-	width: 990px;
-	margin: 0 auto;
-}
+
 body {
 	font-family: arial, verdana, sans-serif;
 	color: #000000;
@@ -969,11 +963,42 @@ body {
 		background-color: #1F658E;
 }
 .nav {
+	text-align: center;
+}
+.nav div {
 	margin: 20px 0;
 }
+.nav a { 
+	color: #FFFFFF; 
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 5px;
+}
+@media screen and (min-width: 545px) {
+	.nav a { 
+		padding: 0px 20px;
+	}
+}
+.nav div a:hover { 
+	text-decoration: underline;
+}
+.gold-question-row {
+	 position: relative;
+ }
+ @media screen and (min-width: 992px) {
+	.gold-question-container {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.gold-question-headine {
+		color: #D0B61F;	
+	}
+	.gold-p {
+		color: #D0B61F;
+	}
+ }
 .gold-question {
-	float: right;
-	width: 423px;
 	font-size: 100%;
 	font-family: georgia, times serif;
 	margin: 20px 20px 10px 10px;
@@ -982,34 +1007,55 @@ body {
 .gold-member-paragraph {
 	width: 350px;
 }
-h1 {
-	color: #D0B61F;
-}
-.gold-p {
-	color: #D0B61F;
+.row3 {
+	padding: 30px 0;
 }
 .column1 {
 	float: left;
 	width: 320px;
-	height: 460px;
-	margin: 30px 30px 30px 30px;
-	padding: 30px 30px 30px 30px;
+	height: 400px;
+	padding: 30px 30px 30px 10px;
 }
 .column2 {
 	float: left;
 	width: 315px;
-	height: 460px;
-	margin: 30px 10px 30px 10px;
+	height: 400px;
 	padding: 30px 10px 30px 10px;
 }
 .column3 {
 	float: left;
-	width: 100px;
-	height: 460px;
-	margin: 30px 10px 30px 10px;
+	width: 300px;
+	height: 400px;
 	padding: 30px 10px 30px 10px;
 }
-
+h3 {
+	margin-bottom: -10px;
+}
+ @media screen and (min-width: 375px) {
+	.column1 {
+	float: left;
+	width: 320px;
+	height: 350px;
+	padding: 30px 30px 30px 50px;
+}
+.column2 {
+	float: left;
+	width: 315px;
+	height: 350px;
+	padding: 30px 10px 30px 50px;
+}
+.column3 {
+	float: left;
+	width: 300px;
+	height: 350px;
+	padding: 30px 10px 30px 40px;
+}
+ }
+ .footer {
+	padding: 0.5em;
+	background-color: #1F658E;
+	text-align: center;
+}
 
 
 
@@ -1237,6 +1283,10 @@ h1 {
 .row:after  {
     content: " ";
     display: table;
+}
+.container .row {
+	margin-right: -15px;
+    margin-left: -15px;
 }
 
 .clearfix:after,
