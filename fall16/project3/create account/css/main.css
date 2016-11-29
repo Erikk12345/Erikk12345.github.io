@@ -955,19 +955,12 @@ html {
 }
 
 body {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: arial, verdana, sans-serif;
 	color: #000000;
 }
+
 #header {
 		background-color: #1F658E;
-}
-h1 {
-	font-family: georgia, times serif;
-	color: #1F658E;
-}
-h2 {
-	font-family: georgia, times serif;
-	color: #1F658E;
 }
 .nav {
 	text-align: center;
@@ -1007,6 +1000,7 @@ h2 {
  }
 .gold-question {
 	font-size: 100%;
+	font-family: georgia, times serif;
 	margin: 20px 20px 10px 10px;
 	padding: 10px;
 }
@@ -1036,7 +1030,6 @@ h2 {
 }
 h3 {
 	margin-bottom: -10px;
-	font-family: georgia, times serif;
 }
  @media screen and (min-width: 375px) {
 	.column1 {
@@ -1078,7 +1071,9 @@ h3 {
 		text-align: center;
 	}
 }
-
+.thank-you-text {
+	text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
